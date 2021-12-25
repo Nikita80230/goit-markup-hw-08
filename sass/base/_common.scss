@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--second-title-color);
+  letter-spacing: 0.02em;
+  padding-top: 80px;
+}
+textarea {
+  resize: none;
+  width: 100%;
+}
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
