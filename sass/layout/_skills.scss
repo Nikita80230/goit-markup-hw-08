@@ -1,5 +1,8 @@
 .skills {
   padding-bottom: 94px;
+  @media not screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .skills__title {
