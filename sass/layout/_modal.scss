@@ -12,8 +12,11 @@
 
 .modal {
   text-align: center;
-  width: 528px;
-  min-height: 581px;
+  width: 95%;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    min-height: 609px;
+  }
   padding: 40px;
 
   position: absolute;

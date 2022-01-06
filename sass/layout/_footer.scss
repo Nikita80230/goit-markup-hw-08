@@ -26,13 +26,15 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 65px;
+    padding-right: 65px;
+    align-items: baseline;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .logo-footer__link {
