@@ -8,10 +8,9 @@
   top: 0;
 
   background: var(--second-title-color);
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     height: 80px;
   }
-
 }
 
 .header__container {
@@ -128,6 +127,17 @@
   &:hover,
   &:focus {
     color: var(--accent-color);
+  }
+}
+
+.header-contact__link--mail {
+  @media screen and (max-width: 768px) {
+    padding-top: 18px;
+  }
+}
+.header-contact__link--tel {
+  @media screen and (max-width: 768px) {
+    padding-bottom: 14px;
   }
 }
 

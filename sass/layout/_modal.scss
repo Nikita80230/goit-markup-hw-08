@@ -17,6 +17,11 @@
     width: 450px;
     min-height: 609px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    min-height: 581px;
+  }
+
   padding: 40px;
 
   position: absolute;
@@ -129,7 +134,7 @@
 
 .modal-policy {
   position: relative;
-  display: flex;
+  display: inline-block;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -188,7 +193,7 @@
 }
 
 .modal-policy__text {
-  margin-left: 20px;
+  margin-left: 30px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -230,12 +235,16 @@
 }
 
 .modal__button--close {
+  fill: currentColor;
+}
+
+.modal__button--close {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background: var(--second-title-color);
-  background: #ffffff;
+  // background: var(--second-title-color);
+  // background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 
@@ -248,12 +257,11 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  transition-property: fill background-color;
+  transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
-    fill: var(--second-title-color);
+    color: var(--accent-color);
   }
 }
