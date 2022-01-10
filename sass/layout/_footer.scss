@@ -23,6 +23,7 @@
 .logo-footer__link {
   padding: 0;
   margin-bottom: 20px;
+  text-align: start;
 }
 
 .logo-footer__text {
@@ -53,7 +54,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     margin-right: 70px;
   }
 }
